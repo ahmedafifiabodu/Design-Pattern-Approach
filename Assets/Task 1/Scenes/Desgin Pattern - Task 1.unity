@@ -970,7 +970,7 @@ MonoBehaviour:
   playerTransformtion: {fileID: 1813406258}
   enemies:
   - enemyPrefab: {fileID: 120283090905706465, guid: f882b6f9bb7927c4e8efecc349220c18, type: 3}
-    enemyCounts: 1
+    enemyCounts: 0
     patrolPoints:
     - {fileID: 752805432}
     - {fileID: 115070722}
