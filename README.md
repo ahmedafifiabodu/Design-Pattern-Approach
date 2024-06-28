@@ -4,10 +4,14 @@
 
 The Unity Design Pattern project is a comprehensive showcase of various design patterns implemented within a Unity game development context. It aims to demonstrate best practices in structuring game code, managing dependencies, and optimizing performance, making it an invaluable resource for both novice and experienced Unity developers.
 
+<div align="center">
+  <video src="https://github.com/ahmedafifiabodu/Unity-Design-Pattern-Project/assets/74466733/3b8470e9-657f-4980-a016-18e468993574" width="400" />
+</div>
+
 ## Features
 
 - **Service Locator Pattern**: Centralized management of services to reduce dependencies and facilitate easy access across the project.
-- **State Pattern**: Implementation of enemy behaviors, allowing for dynamic and complex AI systems.
+- **State Pattern**: Implementation of enemy behaviours, allowing for dynamic and complex AI systems.
 - **Object Pooling**: Efficient management of game objects, such as enemies and projectiles, to improve performance.
 - **Observer Pattern**: Utilization of events to communicate changes in game state, such as player health updates.
 - **Singleton Pattern**: Ensuring classes like `ServiceLocator` and `GameConstant` have a single, global point of access.
@@ -38,7 +42,7 @@ Implements the Service Locator pattern to manage dependencies, allowing for easy
 ## Player Systems
 
 ### [Input Manager.cs](#input-manager.cs-context)
-Handles player input, mapping actions to in-game behaviors, ensuring a responsive and intuitive control scheme.
+Handles player input, mapping actions to in-game behaviours, ensuring a responsive and intuitive control scheme.
 
 ### [Player Movement.cs](#player-movement.cs-context)
 Controls the player's movement, including walking and jumping, providing a smooth and natural player experience.
@@ -58,24 +62,24 @@ Facilitates communication between player-related systems, using events to notify
 Updates the UI in response to changes in the player's health, providing visual feedback on the player's condition.
 
 ### [Colorful Text.cs](#colorful-text.cs-context)
-Enhances UI text elements with dynamic color changes, adding visual interest and improving user engagement.
+Enhances UI text elements with dynamic colour changes, adding visual interest and improving user engagement.
 
 ## Enemy Systems
 
 ### [Enemy.cs](#enemy.cs-context)
-Defines basic enemy behavior, including interactions with the player and environment.
+Defines basic enemy behaviour, including interactions with the player and environment.
 
 ### [Enemy Manager.cs](#enemy-manager.cs-context) and [Enemy Manager (OLD).cs](#enemy-manager-(old).cs-context)
 Manages enemy instances, handling spawning, tracking, and state management, central to the game's challenge and dynamics.
 
 ### [Enemy State Manager.cs](#enemy-state-manager.cs-context)
-Controls the state machine for enemy behaviors, allowing for complex and varied AI patterns.
+Controls the state machine for enemy behaviours, allowing for complex and varied AI patterns.
 
 ### [IEnemyState.cs](#ienemystate.cs-context)
 Defines the interface for enemy states, ensuring consistency and facilitating state management.
 
 ### [Enemy Idle State.cs](#enemy-idle-state.cs-context), [Enemy Follow State.cs](#enemy-follow-state.cs-context), [Enemy Attacking State.cs](#enemy-attacking-state.cs-context), [Enemy Patrolling State.cs](#enemy-patrolling-state.cs-context), [Enemy Shooting State.cs](#enemy-shooting-state.cs-context)
-Implement specific enemy behaviors, such as patrolling, following the player, and attacking, contributing to a dynamic and engaging enemy AI.
+Implement specific enemy behaviours, such as patrolling, following the player, and attacking, contributing to a dynamic and engaging enemy AI.
 
 ### [Enemy Pooling.cs](#enemy-pooling.cs-context)
 Implements object pooling for efficient enemy instantiation and management, optimizing performance.
