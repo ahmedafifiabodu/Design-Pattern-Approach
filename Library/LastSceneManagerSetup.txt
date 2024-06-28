@@ -1,5 +1,1 @@
-sceneSetups:
-- path: Assets/Task 1/Scenes/Desgin Pattern - Task 1.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
+sceneSetups: []
